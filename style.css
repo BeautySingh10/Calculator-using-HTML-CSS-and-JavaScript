@@ -1,0 +1,163 @@
+html,body{
+    height: 100%;
+    width:100% ;
+}
+
+/**.button{
+    width: 66px;
+    padding:20px;
+    margin: 0 3px;
+    border:2px solid black;
+    border-radius: 9px;
+    cursor:pointer;
+}
+
+.row{
+    margin:8px 0;
+}
+
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding:10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 291px;
+}**/
+
+/* style.css */
+/* style.css */
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; /* Pure white background */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1.text-center {
+    color: #1a73e8; /* Bright blue title */
+    margin-bottom: 30px;
+    font-size: 2.8rem; /* Larger title */
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.container {
+    background-color: #354b55; /* Light gray calculator body */
+    border-radius: 20px; /* More rounded corners */
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    width: 340px; /* Slightly wider */
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px; /* More spacing */
+    gap: 12px; /* Increased gap between buttons */
+}
+
+.input {
+    width: 100%;
+    height: 90px; /* Taller display */
+    margin-bottom: 25px;
+    border: 2px solid #dfe1e5; /* Slightly darker border */
+    border-radius: 15px;
+    background-color: #ffffff; /* Pure white display */
+    font-size: 2.5rem; /* Larger display text */
+    text-align: right;
+    padding: 0 20px;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
+    color: #202124; /* Darker text for better contrast */
+    font-weight: 400;
+}
+
+.button {
+    width: 70px; /* Slightly larger buttons */
+    height: 70px;
+    border: none;
+    border-radius: 16px; /* More pill-shaped */
+    font-size: 1.7rem; /* Larger button text */
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.button:hover {
+    transform: translateY(-3px); /* More pronounced lift */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+/* Number buttons - bright white */
+.row .button:nth-child(1),
+.row .button:nth-child(2),
+.row .button:nth-child(3) {
+    background-color: #ffffff;
+    color: #5f6368;
+    border: 1px solid #dadce0;
+}
+
+.row .button:nth-child(1):hover,
+.row .button:nth-child(2):hover,
+.row .button:nth-child(3):hover {
+    background-color: #f8f9fa;
+}
+
+/* Special buttons (C, %) - bright red */
+.row:nth-child(2) .button:nth-child(1),
+.row:nth-child(2) .button:nth-child(2) {
+    background-color: #ea4335;
+    border: none;
+}
+
+/* Memory buttons (M+, M-) - vibrant purple */
+.row:nth-child(2) .button:nth-child(3),
+.row:nth-child(2) .button:nth-child(4) {
+    background-color: #9c27b0;
+}
+
+/* Operator buttons - bright blue */
+.row .button:nth-child(4),
+.row:last-child .button:nth-child(4) {
+    background-color: #4285f4;
+}
+
+/* Equals button - vibrant green */
+.row:last-child .button:nth-child(3) {
+    background-color: #34a853;
+}
+
+/* Zero button - wider and bright white */
+.row:last-child .button:nth-child(1) {
+    width: 130px;
+    background-color: #ffffff;
+    color: #5f6368;
+    border: 1px solid #dadce0;
+}
+
+/* Make the title pop more */
+h1.text-center {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Add a subtle glow to operator buttons */
+.row .button:nth-child(4):hover,
+.row:last-child .button:nth-child(4):hover {
+    box-shadow: 0 6px 12px rgba(66, 133, 244, 0.3);
+}
