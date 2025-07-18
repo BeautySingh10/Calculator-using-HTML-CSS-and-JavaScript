@@ -30,7 +30,7 @@ html,body{
 /* style.css */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff; /* Pure white background */
+    background-color: #ffffff; 
     margin: 0;
     padding: 20px;
     display: flex;
@@ -48,42 +48,42 @@ h1.text-center {
 }
 
 .container {
-    background-color: #354b55; /* Light gray calculator body */
-    border-radius: 20px; /* More rounded corners */
+    background-color: #354b55; 
+    border-radius: 20px; 
     padding: 25px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Deeper shadow */
-    width: 340px; /* Slightly wider */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); 
+    width: 340px; 
     border: none;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px; /* More spacing */
-    gap: 12px; /* Increased gap between buttons */
+    margin-bottom: 16px; 
+    gap: 12px;
 }
 
 .input {
     width: 100%;
-    height: 90px; /* Taller display */
+    height: 90px; 
     margin-bottom: 25px;
-    border: 2px solid #dfe1e5; /* Slightly darker border */
+    border: 2px solid #dfe1e5;
     border-radius: 15px;
-    background-color: #ffffff; /* Pure white display */
-    font-size: 2.5rem; /* Larger display text */
+    background-color: #ffffff; 
+    font-size: 2.5rem; 
     text-align: right;
     padding: 0 20px;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
-    color: #202124; /* Darker text for better contrast */
+    color: #202124; 
     font-weight: 400;
 }
 
 .button {
-    width: 70px; /* Slightly larger buttons */
+    width: 70px;
     height: 70px;
     border: none;
-    border-radius: 16px; /* More pill-shaped */
-    font-size: 1.7rem; /* Larger button text */
+    border-radius: 16px; 
+    font-size: 1.7rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.15s ease;
@@ -95,7 +95,7 @@ h1.text-center {
 }
 
 .button:hover {
-    transform: translateY(-3px); /* More pronounced lift */
+    transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -103,7 +103,7 @@ h1.text-center {
     transform: translateY(1px);
 }
 
-/* Number buttons - bright white */
+
 .row .button:nth-child(1),
 .row .button:nth-child(2),
 .row .button:nth-child(3) {
